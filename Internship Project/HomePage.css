@@ -1,0 +1,176 @@
+body,html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	width: 1340px;
+	height: 700px;
+	margin: 0 auto;
+	margin-top: 0%;
+	position: relative;
+}
+
+#container>img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    
+}
+.b{
+	background-color: #0001;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	top: 0%;
+	position: fixed;
+	font-family: Comic Sans MS;
+}
+
+ul{
+   text-align: center;
+}
+
+ul li{
+	list-style-type: none;
+	display: inline-block;
+	transition: 1s all;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 40px;
+	font-size: 22px;
+}
+
+.b ul li:hover{
+	background-color: orange;
+}
+
+h2{
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	position: absolute;
+	margin-top: 0%;
+	transition: 1s;
+	font-family: Comic Sans MS;
+}
+
+h2:hover{
+	background-color: orange;
+}
+
+.admin a{
+	text-decoration: none;
+	color: white;
+	font-family: Comic Sans MS;
+	position: absolute;
+	left: 1270px;
+}
+
+.social{
+	position: absolute;
+	top: 30%;
+	right: 1%;
+}
+
+.social ul{
+	list-style-type: none;
+	
+}
+
+.social ul li{
+	display: block;
+	width: 44px;
+	height: 44px;
+	border-radius: 100px;
+	padding: 10px 10px;
+	background:#fff;
+	font-size: 38px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.social ul li:nth-child(1){
+   color: #3b5998;
+}
+.social ul li:nth-child(1):hover{
+   color: #fff;
+   background-color: #3b5998;
+   animation: roll 1s infinite;
+   transition: rotate(20deg);
+}
+
+
+.social ul li:nth-child(2){
+   color: #00aced;
+}
+.social ul li:nth-child(2):hover{
+   background-color: #00aced;
+   color: #fff;
+   animation: roll 1s infinite;
+   transition: rotate(20deg);  
+}
+
+.social ul li:nth-child(3){
+   color: #dd4b39;
+}
+.social ul li:nth-child(3):hover{
+   background-color: #dd4b39;
+   color: #fff;
+   animation: roll 1s infinite;
+   transition: rotate(20deg);  
+}
+
+.social ul li:nth-child(4){
+   color: #bc2a8d;
+}
+.social ul li:nth-child(4):hover{
+   background-color: #bc2a8d;
+   color: #fff;
+   animation: roll 1s infinite;
+   transition: rotate(20deg);  
+}
+
+.social ul li:nth-child(5){
+   color: #007bb6;
+}
+.social ul li:nth-child(5):hover{
+   background-color: #007bb6;
+   color: #fff;
+   animation: roll 1s infinite;
+   transition: rotate(45deg);  
+}
+
+@keyframes roll{
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(360deg);
+	}
+}
+
+.div2{
+	width: 100%;
+	height: 135px;
+	background-color: #000000;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+.div2  a{
+	color: blue;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 17px;
+	font-family: Comic Sans MS;
+	
+}
+
+
+
+
